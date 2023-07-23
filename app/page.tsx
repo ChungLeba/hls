@@ -19,7 +19,7 @@ export default async function Home() {
             Hi
           </h1>
           <ReactHlsPlayer
-            src="http://103.74.101.152:8000/live/a22ae7bbf825442ca0017fef01b77178/index.m3u8"
+            src="http://103.74.101.152:8000/live/625f6147e6ff4497af83f608f49bf66c/index.m3u8"
             autoPlay={false}
             controls={true}
             width="100%"
