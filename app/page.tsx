@@ -8,7 +8,6 @@ import ReactHlsPlayer from "@ducanh2912/react-hls-player";
 //getData()
 
 export default async function Home() {
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
@@ -16,7 +15,7 @@ export default async function Home() {
           Hi
         </h1>
         <ReactHlsPlayer
-          src="http://103.74.101.152:8000/live/4a6e1ed5d7224853af8e2b9a1464c164/index.m3u8"
+          src="http://103.74.101.152:8000/live/a22ae7bbf825442ca0017fef01b77178/index.m3u8"
           autoPlay={false}
           controls={true}
           width="100%"
